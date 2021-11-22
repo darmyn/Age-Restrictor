@@ -3,27 +3,19 @@
   "tree": {
     "$className": "DataModel",
 
-    "ReplicatedStorage": {
-      "Common": {
-        "$path": "src/shared"
-      }
-    },
-
     "ServerScriptService": {
+      "$className": "ServerScriptService",
       "Server": {
-        "$path": "src/server"
+        "$path": "example/server"
       }
     },
 
-    "StarterPlayer": {
-      "StarterPlayerScripts": {
-        "Client": {
-          "$path": "src/client"
-        }
-      }
+    "ServerStorage": {
+      "$path": "example/server"
     },
 
     "Workspace": {
+      "$className": "Workspace",
       "$properties": {
         "FilteringEnabled": true
       },
@@ -51,6 +43,7 @@
       }
     },
     "Lighting": {
+      "$className": "Lighting",
       "$properties": {
         "Ambient": [
           0,
@@ -64,6 +57,7 @@
       }
     },
     "SoundService": {
+      "$className": "SoundService",
       "$properties": {
         "RespectFilteringEnabled": true
       }
